@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ieuan",
+  lastName: "Cole",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full Stack Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Europe/London", // Corrected to use the IANA time zone identifier for England
+  languages: ["English",], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -90,9 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm a 25-year-old full-stack software engineer with nearly three years of industry experience. I have expertise in HTML, CSS, TypeScript, and PHP, using frameworks including React.js, Vue.js, CodeIgniter, and Laravel. I have worked with Gatsby, Next.js, GraphQL, and Groq. Currently, I am learning Python and pursuing IBM certifications in AI engineering and development. I am passionate about programming and emerging tech and I enjoy problem-solving. In my spare time, I help companies build scalable websites and enjoy hiking, rock climbing, and weightlifting.
       </>
     ),
   },
